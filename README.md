@@ -35,7 +35,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [ ] Aula 3 - 07/05/2021
 
 ### Demonstração da Aplicação
-- [jpbraz-dsvendas](https://jpbraz-dsvendas.netlify.app/)
+[<img src="https://github.com/jpbraz/projeto-sds3/blob/main/frontend/src/assets/img/Captura%20de%20tela%20de%202021-05-05%2000-06-40.png" width=80% >
+<br>jpbraz-dsvendas](https://jpbraz-dsvendas.netlify.app/)
 
 
 ### Badges
