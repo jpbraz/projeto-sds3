@@ -6,6 +6,7 @@
 ## Descrição do Projeto
 🚀 Projeto desenvolvido durante a [Semana Spring React da DevSuperior](https://github.com/devsuperior/sds3).
 
+
 ## 🛠 Ferramentas necessárias/utilizadas:
 - [x] Curl
 - [x] Git
@@ -29,6 +30,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Spring Data JPA - JpaRepository](https://spring.io/)
 
 
+
 ## 🏃 Andamento do Projeto
 - [x] Aula 1 - 03/05/2021 :heavy_check_mark:
 - [ ] Aula 2 - 05/05/2021
@@ -41,6 +43,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Badges
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a40749b2-82ce-4ff6-8d49-504aeba8e5e8/deploy-status)](https://app.netlify.com/sites/jpbraz-dsvendas/deploys)
+
 
 ## ⏲️ Etapas
 ### Criação do Projeto (monorepo)
@@ -82,6 +85,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
         - Domain Management: (colocar o nome que você quiser)
    - Deploys -> *Trigger deploy*
    > https://jpbraz-dsvendas.netlify.app/
+
 
 ## :octocat: Colaboradores:
 [<img src="https://avatars.githubusercontent.com/u/49927924?s=200&v=4" width=60 > <br> <sub> João Paulo Braz </sub>](https://github.com/jpbraz) |
