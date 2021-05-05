@@ -3,10 +3,10 @@
 </a>
 </h1>
 
-### Descrição do Projeto
+## Descrição do Projeto
 🚀 Projeto desenvolvido durante a [Semana Spring React da DevSuperior](https://github.com/devsuperior/sds3).
 
-### Ferramentas necessárias/utilizadas :
+## Ferramentas necessárias/utilizadas :
 - [x] Curl
 - [x] Git
 - [x] Java JDK 11
@@ -19,26 +19,6 @@
 - [x] YARN (Caso queira usar ao invés do NPM)
 - [x] VS Code
 
-### Andamento do Projeto
-- [x] Aula 1 - 03/05/2021
-- [ ] Aula 2 - 05/05/2021
-- [ ] Aula 3 - 07/05/2021
-
-### Demonstração da Aplicação
-- [jpbraz-dsvendas](https://jpbraz-dsvendas.netlify.app/)
-
-#### Passos para implantação no Netlify
-- Publicação no Netlify
-    * Comando: yarn build
-    * Diretório: build
-      Deploy! (vai quebrar)
-    * -> Site settings -> Build & Deploy: (colocar o nome da sua subpasta do projeto frontend)
-    * -> Site settings -> Domain Management: (colocar o nome que você quiser)
-    * -> Deploys -> Trigger deploy
-
-### Badges
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a40749b2-82ce-4ff6-8d49-504aeba8e5e8/deploy-status)](https://app.netlify.com/sites/jpbraz-dsvendas/deploys)
-
 ### 🛠 Tecnologias utilizadas:
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -48,15 +28,60 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [PostgreSQL](https://www.postgresql.org/)
 - [Spring Data JPA - JpaRepository](https://spring.io/)
 
-### Etapas
-1) Criação do Projeto
-   * Frontend
-  ```shell npx create-react-app frontend --template typescript```
-      
-  * Backend
-    Criado projeto Spring Boot no Spring Initializr com as seguintes dependências:
-    * Web
-    * JPA
-    * H2
-    * Postgres
-    * Security
+
+## Andamento do Projeto
+- [x] Aula 1 - 03/05/2021 :heavy_check_mark:
+- [ ] Aula 2 - 05/05/2021
+- [ ] Aula 3 - 07/05/2021
+
+### Demonstração da Aplicação
+- [jpbraz-dsvendas](https://jpbraz-dsvendas.netlify.app/)
+
+
+### Badges
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a40749b2-82ce-4ff6-8d49-504aeba8e5e8/deploy-status)](https://app.netlify.com/sites/jpbraz-dsvendas/deploys)
+
+## Etapas
+### Criação do Projeto (monorepo)
+   ##### 1) Frontend
+    
+    `shell npx create-react-app frontend --template typescript`
+   Lembrar de remover o arquivo .git
+   
+   - Bootstrap
+   
+   `yarn add bootstrap`
+   
+   - adicionar gráficos estáticos: Apex Charts
+   
+   `yarn add apexcharts react-apexcharts`
+
+   ##### 2) Backend
+   Criado projeto Spring Boot no *Spring Initializr*(https://start.spring.io/) com as seguintes dependências:
+   - Web
+   - JPA
+   - H2
+   - Postgres
+   - Security
+    
+   #### Deploy da Aplicação com Netlify: :dash:
+   Configurações para a Publicação no Netlify:
+   - Site -> *New site from Git*
+        
+   - Basic build settings
+        - Build Comand: yarn build
+        - Publish Directory: build
+        - *Deploy site*
+        
+        Deploy! (vai quebrar)
+   - Site settings
+        - Build & Deploy: (colocar o nome da sua subpasta do projeto frontend)
+        - Domain Management: (colocar o nome que você quiser)
+   - Deploys -> *Trigger deploy*
+   > https://jpbraz-dsvendas.netlify.app/
+
+## Colaboradores
+| :---: |
+[<img src="https://avatars.githubusercontent.com/u/49927924?s=200&v=4" width=60 > <br> <sub> João Paulo Braz </sub>](https://github.com/jpbraz) |
+[<img src="https://avatars.githubusercontent.com/u/66876849?s=200&v=4" width=60 > <br> <sub> DevSuperior </sub>](https://github.com/devsuperior) |
+| :---: |  
