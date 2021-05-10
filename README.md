@@ -37,7 +37,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🏃 Andamento do Projeto
 - [x] Aula 1 - 03/05/2021 :heavy_check_mark:
 - [x] Aula 2 - 05/05/2021 :heavy_check_mark:
-- [ ] Aula 3 - 07/05/2021
+- [x] Aula 3 - 07/05/2021 :heavy_check_mark:
 
 ### Demonstração da Aplicação
 [<img src="https://github.com/jpbraz/projeto-sds3/blob/main/frontend/src/assets/img/Captura%20de%20tela%20de%202021-05-05%2000-06-40.png" width=80% >
@@ -108,6 +108,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
     heroku git:remote -a <nome-do-app>
     git subtree push --prefix backend heroku maingit subtree push --prefix backend heroku main
 
+   #### 4) Integração do backend (Heroku) com o frontend (Netlify):
+   - Criação de Rotes e Links com o react-router-dom, para as pages Home e Dashboard.
+   - Criação de request com o [axios](https://github.com/axios/axios): ```yarn add axios``` 
+   - Definição do BASE_URL do BACKEND em "request.ts" e Heroku -> Build & Deploy -> Environment;
+   - Integração com Hooks (useState e useEffect) em BarChart, DonutChart e DataTable para rederenzição dos dados
+   - Criação do componente Pagination
+   - Adicionado rederização condicional com o useState isLoading
 
 &nbsp;&nbsp;&nbsp;
 
