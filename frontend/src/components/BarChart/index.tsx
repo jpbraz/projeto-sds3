@@ -19,6 +19,8 @@ type ChartData = {
 
 const BarChart = () => {
 
+    const [isLoading, setIsLoading] = useState(true);
+
     const [chartData, setChartData] = useState<ChartData>({
         labels: {
             categories: []
@@ -47,7 +49,9 @@ const BarChart = () => {
                         data: mySeries           
                     }
                 ]}); 
-            });
+            })
+            .finally(() => setIsLoading(false)
+        );
     },[]);
 
     const options = {
@@ -73,12 +77,21 @@ const BarChart = () => {
     */
 
     return (
-        <Chart 
-            options={{...options, xaxis: chartData.labels}}
-            series={chartData.series}
-            type="bar"
-            height="240"
-        />
+        <>
+        
+        {isLoading ? 
+                <p>Buscando dados ...</p>
+             : 
+                <Chart 
+                    options={{...options, xaxis: chartData.labels}}
+                    series={chartData.series}
+                    type="bar"
+                    height="240"
+                />
+                        
+        }
+        
+        </>
     );
   }
   
